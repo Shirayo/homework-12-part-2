@@ -13,10 +13,12 @@
 		84482EBF23FE77C50096FCE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84482EBD23FE77C50096FCE8 /* Main.storyboard */; };
 		84482EC123FE77C80096FCE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84482EC023FE77C80096FCE8 /* Assets.xcassets */; };
 		84482EC423FE77C80096FCE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84482EC223FE77C80096FCE8 /* LaunchScreen.storyboard */; };
+		84482ECC23FEE8EC0096FCE8 /* ImageFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84482ECB23FEE8EC0096FCE8 /* ImageFoundViewController.swift */; };
+		84482ECE23FEE8FB0096FCE8 /* ImageNotFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84482ECD23FEE8FB0096FCE8 /* ImageNotFoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84482EB423FE77C50096FCE8 /* homework 12 part 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homework 12 part 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84482EB423FE77C50096FCE8 /* homework 12 part 2 .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homework 12 part 2 .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84482EB723FE77C50096FCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84482EB923FE77C50096FCE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84482EBB23FE77C50096FCE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		84482EC023FE77C80096FCE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84482EC323FE77C80096FCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84482EC523FE77C80096FCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84482ECB23FEE8EC0096FCE8 /* ImageFoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFoundViewController.swift; sourceTree = "<group>"; };
+		84482ECD23FEE8FB0096FCE8 /* ImageNotFoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNotFoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		84482EB523FE77C50096FCE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84482EB423FE77C50096FCE8 /* homework 12 part 2.app */,
+				84482EB423FE77C50096FCE8 /* homework 12 part 2 .app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +63,8 @@
 				84482EB723FE77C50096FCE8 /* AppDelegate.swift */,
 				84482EB923FE77C50096FCE8 /* SceneDelegate.swift */,
 				84482EBB23FE77C50096FCE8 /* ViewController.swift */,
+				84482ECB23FEE8EC0096FCE8 /* ImageFoundViewController.swift */,
+				84482ECD23FEE8FB0096FCE8 /* ImageNotFoundViewController.swift */,
 				84482EBD23FE77C50096FCE8 /* Main.storyboard */,
 				84482EC023FE77C80096FCE8 /* Assets.xcassets */,
 				84482EC223FE77C80096FCE8 /* LaunchScreen.storyboard */,
@@ -84,7 +90,7 @@
 			);
 			name = "homework 12 part 2";
 			productName = "homework 12 part 2";
-			productReference = 84482EB423FE77C50096FCE8 /* homework 12 part 2.app */;
+			productReference = 84482EB423FE77C50096FCE8 /* homework 12 part 2 .app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84482EBC23FE77C50096FCE8 /* ViewController.swift in Sources */,
+				84482ECE23FEE8FB0096FCE8 /* ImageNotFoundViewController.swift in Sources */,
 				84482EB823FE77C50096FCE8 /* AppDelegate.swift in Sources */,
 				84482EBA23FE77C50096FCE8 /* SceneDelegate.swift in Sources */,
+				84482ECC23FEE8EC0096FCE8 /* ImageFoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +299,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Shirayo-TMS.homework-12-part-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shirayo-TMS.homework-12-part-2-";
+				PRODUCT_NAME = "homework 12 part 2 ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,8 +317,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Shirayo-TMS.homework-12-part-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shirayo-TMS.homework-12-part-2-";
+				PRODUCT_NAME = "homework 12 part 2 ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
